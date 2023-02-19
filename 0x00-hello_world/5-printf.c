@@ -1,19 +1,12 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: This function prints the sizes of various data types to the console using the printf() function and the sizeof operator.
- * Return: Always 0 (Success)
- */
-
+* main - prints "with proper grammar, but the outcome is a piece of art," followed by a new line
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-        printf("Size of a char: %zu byte(s)\n", sizeof(char));
-        printf("Size of an int: %zu byte(s)\n", sizeof(int));
-        printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
-        printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
-        printf("Size of a float: %zu byte(s)\n", sizeof(float));
-        return (0);
+    printf("with proper grammar, but the outcome is a piece of art,\n");
+    return (0);
 }
